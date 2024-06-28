@@ -24,12 +24,12 @@ button.addEventListener("click", () => {
   //     button.disabled = false;
   //   }, 2000);
 
-  //   sound.play();
+  sound.play();
 
-  //   setTimeout(() => {
-  //     sound.pause();
-  //     sound.currentTime = 0;
-  //   }, 1000);
+  setTimeout(() => {
+    sound.pause();
+    sound.currentTime = 0;
+  }, 300);
 
   if (progress !== 365) {
     progress += 1;
